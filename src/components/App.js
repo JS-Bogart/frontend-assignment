@@ -1,7 +1,8 @@
-import logo from './logo.svg';
+// import logo from "../images/logo.svg";
+import PageLayout from "./PageLayout/PageLayout";
 
-const App = () => (
-	<img src={logo} alt="Timescale" />
-)
+const App = () => {
+  return <PageLayout />;
+};
 
 export default App;
